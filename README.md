@@ -36,7 +36,7 @@ Your tasks are to do the following:
 2. Display the number of unique mice IDs in the data, and then check for any mouse ID with duplicate time points. Display the data associated with that mouse ID, and then create a new DataFrame where this data is removed. Use this cleaned DataFrame for the remaining step. (Note: you found a mouse ID that had duplicate time points, and none of the data associated with that mouse ID should be included in the new DataFrame.)
 
 3. Display the updated number of unique mice IDs.
-![image]https://github.com/ahnxx132/Pymaceuticalss/blob/main/Instructions/Images/Drug%20summary%20table.PNG
+![image](https://github.com/ahnxx132/Pymaceuticalss/blob/main/Instructions/Images/Drug%20summary%20table.PNG)
 
 ### Generate Summary Statistics
 
@@ -54,7 +54,7 @@ Create two summary statistics DataFrames:
 
     * Create the second bar plot by using Matplotlib's `pyplot` methods.
 
-![image]https://github.com/ahnxx132/Pymaceuticalss/blob/main/Instructions/Images/bar%20chart%20mice%20v%20drug.PNG
+![image](https://github.com/ahnxx132/Pymaceuticalss/blob/main/Instructions/Images/bar%20chart%20mice%20v%20drug.PNG)
 
 2. Generate two pie plots. Both plots should be identical and show the distribution of female or male mice in the study.
 
@@ -62,7 +62,7 @@ Create two summary statistics DataFrames:
 
     * Create the second pie plot by using Matplotlib's `pyplot` methods.
 
-![image]https://github.com/ahnxx132/Pymaceuticalss/blob/main/Instructions/Images/Sex%20distribution%20in%20Drug%20Testing%20Pie%20Chart.PNG
+![image](https://github.com/ahnxx132/Pymaceuticalss/blob/main/Instructions/Images/Sex%20distribution%20in%20Drug%20Testing%20Pie%20Chart.PNG)
 ### Calculate Quartiles, Find Outliers, and Create a Box Plot 
 
 1. Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, calculate the quartiles and IQR and determine if there are any potential outliers across all four treatment regimens. Follow these substeps:
@@ -79,21 +79,21 @@ Create two summary statistics DataFrames:
 
   **Hint**: All four box plots should lie next to each other in the same figure. Use this [Matplotlib documentation page](https://matplotlib.org/gallery/pyplots/boxplot_demo_pyplot.html#sphx-glr-gallery-pyplots-boxplot-demo-pyplot-py) for help with changing the style of the outliers.
 
-![image]https://github.com/ahnxx132/Pymaceuticalss/blob/main/Instructions/Images/Box%20plot.PNG
+![image](https://github.com/ahnxx132/Pymaceuticalss/blob/main/Instructions/Images/Box%20plot.PNG)
 
 ### Create a Line Plot and a Scatter Plot
 
 1. Select a mouse that was treated with Capomulin and generate a line plot of tumor volume vs. time point for that mouse.
 
 2. Generate a scatter plot of tumor volume versus mouse weight for the Capomulin treatment regimen.
-![image]https://github.com/ahnxx132/Pymaceuticalss/blob/main/Instructions/Images/Scatter%20plot.PNG
+![image](https://github.com/ahnxx132/Pymaceuticalss/blob/main/Instructions/Images/Scatter%20plot.PNG)
 
 ### Calculate Correlation and Regression
 
 1. Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. 
 
 2. Plot the linear regression model on top of the previous scatter plot.
-![image]https://github.com/ahnxx132/Pymaceuticalss/blob/main/Instructions/Images/Linear%20regression.PNG
+![image](https://github.com/ahnxx132/Pymaceuticalss/blob/main/Instructions/Images/Linear%20regression.PNG)
 
 ### Submit Your Final Analysis
 
