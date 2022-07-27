@@ -36,12 +36,11 @@ Your tasks are to do the following:
 2. Display the number of unique mice IDs in the data, and then check for any mouse ID with duplicate time points. Display the data associated with that mouse ID, and then create a new DataFrame where this data is removed. Use this cleaned DataFrame for the remaining step. (Note: you found a mouse ID that had duplicate time points, and none of the data associated with that mouse ID should be included in the new DataFrame.)
 
 3. Display the updated number of unique mice IDs.
-![image](https://github.com/ahnxx132/Pymaceuticalss/blob/main/Instructions/Images/Drug%20summary%20table.PNG)
 
 ### Generate Summary Statistics
 
 Create two summary statistics DataFrames:
-
+![image](https://github.com/ahnxx132/Pymaceuticalss/blob/main/Instructions/Images/Drug%20summary%20table.PNG)
     * For the first table, use the `groupby` method to generate the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen. This should result in five unique series objects. Combine these objects into a single summary statistics DataFrames.
 
     * For the second table, use the agg method to produce the same summary statistics table by using a single line of code. (Note: we did not cover this method in class, so this is an opportunity for you to practice your skills at using Google to find the documentation for a new function. -Dom)
