@@ -41,6 +41,7 @@ Your tasks are to do the following:
 
 Create two summary statistics DataFrames:
 ![image](https://github.com/ahnxx132/Pymaceuticalss/blob/main/Instructions/Images/Drug%20summary%20table.PNG)
+
     * For the first table, use the `groupby` method to generate the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen. This should result in five unique series objects. Combine these objects into a single summary statistics DataFrames.
 
     * For the second table, use the agg method to produce the same summary statistics table by using a single line of code. (Note: we did not cover this method in class, so this is an opportunity for you to practice your skills at using Google to find the documentation for a new function. -Dom)
