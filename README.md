@@ -38,9 +38,9 @@ Your tasks are to do the following:
 3. Display the updated number of unique mice IDs.
 
 ### Generate Summary Statistics
+![image](https://github.com/ahnxx132/Pymaceuticalss/blob/main/Instructions/Images/Drug%20summary%20table.PNG)
 
 Create two summary statistics DataFrames:
-![image](https://github.com/ahnxx132/Pymaceuticalss/blob/main/Instructions/Images/Drug%20summary%20table.PNG)
 
     * For the first table, use the `groupby` method to generate the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen. This should result in five unique series objects. Combine these objects into a single summary statistics DataFrames.
 
